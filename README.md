@@ -43,11 +43,11 @@ Nota: Se recomienda utilizar [nodemon](https://www.npmjs.com/package/nodemon)
 
 <dl>
   <dt></dt>¿Cómo logra obtener los datos?</dt>
-  <dd>Se scrapea la página [saldo-bip](https://www.saldo-bip.com) y se entrega los datos que se obtienen</dd>
+  <dd>Se scrapea la página https://www.saldo-bip.com y se entrega los datos que se obtienen</dd>
     
   <dt>¿Por qué tarda en cargar el backend?</dt>
   <dd>La página utilizada para scrapear tarda en traer los datos.</dd>
   
   <dt>¿Por qué hay un código alterno en el saldoRoute.js?</dt>
-  <dd>Es otra forma de realizar el scrapeo, la segunda forma utiliza [movired](https://movired.cl) el cual no funciona la mayoría de las veces por lo que se deja como opción aparte.</dd>
+  <dd>Es otra forma de realizar el scrapeo, la segunda forma utiliza https://movired.cl el cual no funciona la mayoría de las veces por lo que se deja como opción aparte.</dd>
 </dl>
