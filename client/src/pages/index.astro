@@ -1,0 +1,19 @@
+---
+import Layout from '@/layouts/Layout.astro'
+
+import UserForm from '@/components/React/UserForm.tsx'
+---
+
+<Layout title="Bienvenido.">
+    <main>
+        <div class="relative bg-gradient-to-r from-transparent to-transparent p-4 rounded-md">
+            <div class="absolute inset-0 backdrop-filter backdrop-blur-lg">
+                <div class="h-screen flex items-center justify-center">
+					<section>
+						<UserForm client:load />
+					</section>
+                </div>
+            </div>
+        </div>
+    </main>
+</Layout>
